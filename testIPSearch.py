@@ -4,11 +4,11 @@
 #import re
 
 #your shodan API key
-#SHODAN_API_KEY = 'vxgVMr9jL5reGAREMRbkUWH7ErzOYiv9'
+#SHODAN_API_KEY = 'apikey'
 #api = shodan.Shodan(SHODAN_API_KEY)
 
 import shodan
-apkey = 'vxgVMr9jL5reGAREMRbkUWH7ErzOYiv9'
+apkey = 'apikey'
 api = shodan.Shodan(apkey)
  
 # Wrap the request in a try/ except block to catch errors
